@@ -43,6 +43,14 @@ hr.footer {
     background-color: #0186eb;
 }
 
+i.fa-pencil {
+    font-size: 10px;
+}
+
+i.fa-chevron-down {
+    font-size: 10px;
+}
+
 /* End Root color */
 
 /* Navigation */
@@ -121,6 +129,10 @@ nav .dropdown>.dropdown-toggle:active {
     nav {
         max-height: 60px;
     }
+
+    nav a.nav-link {
+        font-size: 13px;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -130,6 +142,10 @@ nav .dropdown>.dropdown-toggle:active {
 
     nav {
         max-height: 50px;
+    }
+
+    nav a.nav-link {
+        font-size: initial;
     }
 
     nav #collapsibleNavId {
@@ -158,8 +174,6 @@ nav .dropdown>.dropdown-toggle:active {
     .list-news span {
         font-size: 13px;
     }
-
-    /* Xóa bỏ hover nav mobile */
 
 }
 
