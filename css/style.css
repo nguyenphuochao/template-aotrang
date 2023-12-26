@@ -1,4 +1,4 @@
-/* contants */
+/* contants hr */
 hr {
     height: 5px;
     background-color: grey;
@@ -15,6 +15,7 @@ hr.footer {
     background-color: rgb(189, 182, 182);
 }
 
+/* End contants hr */
 .col-image {
     overflow: hidden;
     position: relative;
@@ -43,6 +44,9 @@ hr.footer {
     background-color: #0186eb;
 }
 
+/* End Root color */
+
+/* fontawesome*/
 i.fa-pencil {
     font-size: 10px;
 }
@@ -51,7 +55,7 @@ i.fa-chevron-down {
     font-size: 10px;
 }
 
-/* End Root color */
+/* End fontawesome */
 
 /* Navigation */
 nav {
@@ -85,6 +89,8 @@ nav .dropdown>.dropdown-toggle:active {
     /*Without this, clicking will make it sticky*/
     pointer-events: none;
 }
+
+/* End Navigation */
 
 /* List News Component*/
 .news-hot .content-hot {
@@ -124,6 +130,8 @@ nav .dropdown>.dropdown-toggle:active {
     mask-image: linear-gradient(to top, black 50%, transparent 100%)
 }
 
+/* End List News Component */
+
 /* Reponsive ở đây */
 @media screen and (max-width: 1200px) {
     nav {
@@ -154,10 +162,6 @@ nav .dropdown>.dropdown-toggle:active {
         margin-left: -16px;
         margin-right: -16px;
     }
-
-    /* Nav left to right */
-
-
 
 }
 
